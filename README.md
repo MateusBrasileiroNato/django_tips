@@ -1,4 +1,4 @@
-# Criando projeto no Visual Studio Code:
+# Criando projeto Django:
 
 cd "pasta"
 django-admin startproject "pasta_projeto"

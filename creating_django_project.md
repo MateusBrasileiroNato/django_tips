@@ -1,5 +1,3 @@
-# Creating Django project:
-
 cd "chosen_folder"
 django-admin startproject "project_folder"
 cd "project_folder"

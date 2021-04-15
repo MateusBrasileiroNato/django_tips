@@ -1,16 +1,16 @@
-# Criando projeto Django:
+# Creating Django project:
 
-cd "pasta"
-django-admin startproject "pasta_projeto"
-cd "nome"
-python manage.py startapp "subpasta_arquivos"
+cd "chosen_folder"
+django-admin startproject "project_folder"
+cd "project_folder"
+python manage.py startapp "files_folder"
 
-# Migrações do projeto
+# Migrations
 
-cd "pasta_projeto"
+cd "project_folder"
 python manage.py makemigrations
 python manage.py migrate
 
-# Testando 
+# Testing
 
 python manage.py runserver
